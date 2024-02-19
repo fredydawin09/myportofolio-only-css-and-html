@@ -1,0 +1,93 @@
+/*==========================Media Query Web=============================== */
+@media (min-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .txt-pj{
+        width: 90%;
+    }
+    /*about responsive view setting*/
+    .about-head{
+        width: 100vw;
+    }
+    .about-img{
+        height: 150px;
+    }
+    .profil-card p{
+        text-align: justify;
+    }
+
+    .tabel-info{
+        margin-left: 145px;
+    }
+    .tabel-info p{
+        text-align: left;
+    }
+    /*-----------------------------*/
+    /*---------body setting---------------*/
+    .bd-portofolio{
+        width: 100vw;
+    }
+    .bd-portofolio h2{
+        padding-top: 10vh;
+    }
+    /*----------------my skill----------------*/
+    .skill-sub{
+        gap: 12rem;
+    }
+    .skill-card{
+        width: 150px;
+        height: 150px;
+    }
+    .skill-info img{
+        height: 100px;
+        border-radius: 50%;
+    }
+    .skill-info h4{
+        text-align: center;
+        font-weight: 400;
+    }
+    /*--------Portofolio Setting-------------*/
+    .portofolio-view-setting{
+        gap: 10px;
+        margin-left: 8vw;
+        padding-top: 25px;
+    }
+    .card-port{
+        height: 550px;
+        width: 350px;
+    }
+    .port-c img{
+        height: 550px;
+        border-radius: 0%;
+    }
+    /*-----------service setting-----------*/
+    .my-service{
+        margin-top: 10vh;
+    }
+    .serv-card{
+        gap: 5rem;
+    }
+    .m-serv-card img{
+        height: 100px;
+    }
+    .serv-card-i{
+        width: 155px;
+        height: 155px;
+    }
+    .m-serv-card h3{
+        text-align: center;
+        
+    }
+    /*footer setting view size*/
+    .wb-footer{
+        width: 100vw;
+    }
+    .ft-btn{
+        margin-left: 37%;
+    }
+    .ft-btn button{
+        height: 35px;
+        width: 225px;
+    }
+}
